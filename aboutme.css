@@ -1,0 +1,41 @@
+body {
+    background-color: #567189;
+    background-size: contain;
+    font-family: "Tahoma"
+  
+  }
+.resumebox {
+    width: 700px;
+    height: 700px;
+    border: 15px;
+    background-color:#FAD6A5;
+}
+
+.contentbox {
+    width: 700px;
+    background-color: #7B8FA1;
+    
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+
+}
+a:active{
+    color: black;
+    text-decoration: none;
+
+
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+
+
+}
+
