@@ -63,7 +63,3 @@
     nav>ul>li:hover>ul{
     display: block;
     }
-    main{
-        display: flex;
-        flex-direction: row-reverse;
-    }
