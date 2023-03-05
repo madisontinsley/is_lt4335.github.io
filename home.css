@@ -1,0 +1,11 @@
+body {
+    background-color:#f1e8cf;
+    background-size: contain;
+    font-family: "Tahoma"; 
+   
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}

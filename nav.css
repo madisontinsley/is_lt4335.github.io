@@ -1,0 +1,69 @@
+
+a:link{
+   color: black;
+}
+ nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Tahoma";
+    font-size: large;
+ }
+nav ul {
+   list-style-type: none;
+   float: left; 
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   flex-flow: row wrap;
+   }
+
+   .home {
+   
+   }
+   .about {
+      
+   }
+   .reflection {
+     
+   }
+   .project {
+   
+   }
+
+ ul li{
+    list-style-type: none;
+    background-color: #f1e8cf;
+    text-align: center; 
+ }
+    nav>ul li {
+    width: 150px; 
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f1e8cf;
+    }
+    nav a {
+    text-decoration: none;
+    display: block;
+    }
+   
+    nav a:link{
+    background-color: wheat;
+    }
+    nav a:hover, nav a:focus {
+    background-color: cornsilk;
+    }
+    nav a:active{
+    background-color: cornsilk;
+    }
+
+    nav ul>li ul {
+    position: absolute;
+    display: none;
+    }
+    
+    nav>ul>li:hover>ul{
+    display: block;
+    }
