@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>About</title>
+
+	<style type="text/css">
+		body{
+			font-family: Georgia;
+		}
+
+		.layout {
+			display: grid;
+			grid-template-columns: 20fr;
+			grid-template-rows: 2fr 3fr 3fr 20fr;
+			height: 620px;
+		}
+
+		header {
+			grid-column-start: 1;
+			grid-column-end: 2;
+		}
+		nav{
+			grid-column-start: 1;
+			grid-column-end: 2;	
+
+		}
+
+		footer {
+			grid-column-start: 1;
+			grid-column-end: 2;
+		}
+
+		.layout *{
+			background: lightgoldenrodyellow;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 1px;
+			margin-right: 1px;
+		}
+		.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+ .boxes *{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+ a:link{
+    color: black;
+ }
+  .boxes{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     font-family: "Georgia";
+     font-size: large;
+  }
+ .boxes ul {
+    list-style-type: none;
+    float: left; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    }
+ 
+  ul li{
+     list-style-type: none;
+     background-color: #f1e8cf;
+     text-align: center; 
+  }
+     .boxes>ul li {
+     width: 150px; 
+     position: relative;
+     text-align: center;
+     font-weight: bold;
+     background-color: #f1e8cf;
+     }
+     .boxes a {
+     text-decoration: none;
+     display: block;
+     }
+    
+     .boxes a:link{
+     background-color: wheat;
+     }
+     .boxes a:hover, .boxes a:focus {
+     background-color: cornsilk;
+     }
+     .boxes a:active{
+     background-color: cornsilk;
+     }
+ 
+     .boxes ul>li ul {
+     position: absolute;
+     display: none;
+     }
+     
+     .boxes>ul>li:hover>ul{
+     display: block;
+     }
+	</style>
+</head>
+<body>
+	<div class="layout">
+		<header>About Me</header>
+
+		<nav class="boxes">
+			<ul>
+                <li><a href= "Home_Page.html"> Home</a></li>
+				<li><a href= "About_Me.html"> About</a></li>
+                <li><a href= "reflection.html">Reflection</a></li>
+                <li class="tierone"><a href= "project.html"> Project</a>
+                    <ul class="tiertwo">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+                </li>
+             </ul>
+		</nav>
+		<a href= https://drive.google.com/file/d/1bb59nKZKGBX3ElG1hCamSvCbAyksf9R5/view?usp=sharing>My Resume</a>
+		<div class="content">
+			My name is Madison Tinsley, and I am 21 years old. I grew up in Lee’s Summit,
+            Missouri, about 15 minutes from Kansas City. I lived with my parents and our dog,
+            Marley. Before I started high school, my older half-brother moved in with my parents and
+            me. I joined theater and choir in high school, developing a passion for singing. I decided
+            to pursue a music degree. I graduated from Lee’s Summit North High School in 2020. I
+            went on to attend Pepperdine University in California to study Vocal Performance. I
+            spent my first year online due to the pandemic until my sophomore year in 2021. After a
+            difficult academic year at Pepperdine, I decided to quit music and transfer to the
+            University of Missouri. I began my first semester in the fall of 2022 as a
+            Communications major with an Information Technology (IT) minor, expected to graduate
+            in December of 2024. I am working to complete certificates in IT, and I currently hold a
+            student position in the Division of IT’s Adaptive Computing Technology center at
+            Mizzou. I now plan to establish a career in technology after graduation.
+
+		</div>
+		<footer>© Madison Tinsley matcfr@umsystem.edu. All rights reserved.</footer>
+	</div>
+</body>
+</html>
